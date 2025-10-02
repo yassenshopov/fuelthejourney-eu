@@ -1,60 +1,79 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import localFont from "next/font/local";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Geist, Geist_Mono } from 'next/font/google';
+import localFont from 'next/font/local';
+import './globals.css';
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
 });
 
 // Custom fonts
 const octupleMax = localFont({
-  src: "../../public/fonts/Octuple-max-demo.ttf",
-  variable: "--font-octuple-max",
-  display: "swap",
+  src: '../../public/fonts/Octuple-max-demo.ttf',
+  variable: '--font-octuple-max',
+  display: 'swap',
 });
 
 const bebasNeue = localFont({
   src: [
     {
-      path: "../../public/fonts/BebasNeue-Thin.otf",
-      weight: "100",
-      style: "normal",
+      path: '../../public/fonts/BebasNeue-Thin.otf',
+      weight: '100',
+      style: 'normal',
     },
     {
-      path: "../../public/fonts/BebasNeue-Light.otf",
-      weight: "300",
-      style: "normal",
+      path: '../../public/fonts/BebasNeue-Light.otf',
+      weight: '300',
+      style: 'normal',
     },
     {
-      path: "../../public/fonts/BebasNeue-Regular.otf",
-      weight: "400",
-      style: "normal",
+      path: '../../public/fonts/BebasNeue-Regular.otf',
+      weight: '400',
+      style: 'normal',
     },
     {
-      path: "../../public/fonts/BebasNeue-Book.otf",
-      weight: "500",
-      style: "normal",
+      path: '../../public/fonts/BebasNeue-Book.otf',
+      weight: '500',
+      style: 'normal',
     },
     {
-      path: "../../public/fonts/BebasNeue-Bold.otf",
-      weight: "700",
-      style: "normal",
+      path: '../../public/fonts/BebasNeue-Bold.otf',
+      weight: '700',
+      style: 'normal',
     },
   ],
-  variable: "--font-bebas-neue",
-  display: "swap",
+  variable: '--font-bebas-neue',
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
-  title: "Fuel The Journey - ADC*E",
-  description: "Fuel The Journey - ADC*E",
+  title: 'Fuel The Journey - ADC*E',
+  description: 'Fuel The Journey - ADC*E',
+  openGraph: {
+    title: 'Fuel The Journey - ADC*E',
+    description: 'Fuel The Journey - ADC*E',
+    images: [
+      {
+        url: '/images/map.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Fuel The Journey Map - Spain to Bulgaria',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Fuel The Journey - ADC*E',
+    description: 'Fuel The Journey - ADC*E',
+    images: ['/images/map.jpg'],
+  },
 };
 
 export default function RootLayout({
