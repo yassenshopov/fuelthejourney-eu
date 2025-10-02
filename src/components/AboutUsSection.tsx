@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function AboutUsSection() {
   return (
     <section id="about" className="relative">
@@ -28,9 +30,11 @@ export default function AboutUsSection() {
             {/* Right side - Image with name */}
             <div className="order-1 lg:order-2 flex flex-col items-center lg:items-end">
               <div className="w-48 aspect-[3/4] md:w-86 md:h-128 border-6 border-fuel-black rounded-lg shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-hidden">
-                <img
+                <Image
                   src="/images/mirela.JPG"
                   alt="Мирела Славова"
+                  width={344}
+                  height={512}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -45,9 +49,11 @@ export default function AboutUsSection() {
             {/* Left side - Image with name */}
             <div className="order-1 lg:order-1 flex flex-col items-center lg:items-start">
               <div className="w-48 aspect-[3/4] md:w-86 md:h-128 border-6 border-fuel-black rounded-lg shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-hidden">
-                <img
+                <Image
                   src="/images/dimana.jpg"
                   alt="Димана Шопова"
+                  width={344}
+                  height={512}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -61,7 +67,8 @@ export default function AboutUsSection() {
               <p className="text-base md:text-2xl lg:text-3xl leading-relaxed text-left text-fuel-black font-bebas font-bold uppercase">
                 Аз съм студент по реклама с интерес към стратегическата страна
                 на индустрията. В Noble Graphics уча как идеите и брандовете
-                намират своята „златна среда" - пътя от концепция до реалност.
+                намират своята &ldquo;златна среда&rdquo; - пътя от концепция до
+                реалност.
               </p>
             </div>
           </div>
