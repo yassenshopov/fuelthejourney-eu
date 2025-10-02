@@ -18,33 +18,50 @@ export default function AboutUsSection() {
             {/* Left side - Text */}
             <div className="order-2 lg:order-1">
               <p className="text-base md:text-2xl lg:text-3xl leading-relaxed text-left text-fuel-black font-bebas font-bold uppercase">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Аз съм студент по графичен дизайн, но винаги гледам отвъд
+                визуалното. В The Green Team на Noble Graphics експериментирам с
+                идеи и естетика, превръщайки ги в реклама, която въздейства и
+                остава в съзнанието.
               </p>
             </div>
 
-            {/* Right side - Pink square placeholder */}
-            <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-              <div className="w-48 aspect-[3/4] md:w-86 md:h-128 bg-fuel-pink border-6 border-fuel-black rounded-lg shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]"></div>
+            {/* Right side - Image with name */}
+            <div className="order-1 lg:order-2 flex flex-col items-center lg:items-end">
+              <div className="w-48 aspect-[3/4] md:w-86 md:h-128 border-6 border-fuel-black rounded-lg shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-hidden">
+                <img
+                  src="/images/mirela.JPG"
+                  alt="Мирела Славова"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="mt-4 text-lg md:text-xl lg:text-2xl text-fuel-black font-bebas font-bold uppercase">
+                Мирела Славова
+              </p>
             </div>
           </div>
 
           {/* Second mini section */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            {/* Left side - Pink square placeholder */}
-            <div className="order-1 lg:order-1 flex justify-center lg:justify-start">
-              <div className="w-48 aspect-[3/4] md:w-86 md:h-128 bg-fuel-pink border-6 border-fuel-black rounded-lg shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]"></div>
+            {/* Left side - Image with name */}
+            <div className="order-1 lg:order-1 flex flex-col items-center lg:items-start">
+              <div className="w-48 aspect-[3/4] md:w-86 md:h-128 border-6 border-fuel-black rounded-lg shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-hidden">
+                <img
+                  src="/images/dimana.jpg"
+                  alt="Димана Шопова"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="mt-4 text-lg md:text-xl lg:text-2xl text-fuel-black font-bebas font-bold uppercase">
+                Димана Шопова
+              </p>
             </div>
 
             {/* Right side - Text */}
             <div className="order-2 lg:order-2">
               <p className="text-base md:text-2xl lg:text-3xl leading-relaxed text-left text-fuel-black font-bebas font-bold uppercase">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum. Sed ut
-                perspiciatis unde omni iste natus error sit voluptatem
-                accusantium doloremque laudantium.
+                Аз съм студент по реклама с интерес към стратегическата страна
+                на индустрията. В Noble Graphics уча как идеите и брандовете
+                намират своята „златна среда" - пътя от концепция до реалност.
               </p>
             </div>
           </div>

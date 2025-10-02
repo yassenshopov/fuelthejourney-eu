@@ -14,22 +14,31 @@ export default function ADCESection() {
         {/* Content */}
         <div className="max-w-4xl mx-auto space-y-8">
           <p className="font-bebas font-bold text-lg md:text-xl lg:text-2xl leading-relaxed text-justify px-4 md:px-0 text-fuel-black uppercase">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            ADCE Awards & The Greatness Challenge
           </p>
 
           <p className="font-bebas font-bold text-lg md:text-xl lg:text-2xl leading-relaxed text-justify px-4 md:px-0 text-fuel-black uppercase">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt.
+            Знаете ли, че най-големият европейски фестивал за креативност -
+            ADC*E Awards - дава шанс на млади таланти да бъдат част от журито
+            чрез инициативата The Greatness Challenge?
+          </p>
+
+          <p className="font-bebas font-bold text-lg md:text-xl lg:text-2xl leading-relaxed text-justify px-4 md:px-0 text-fuel-black uppercase">
+            Нашата идея е проста: 1782 км = 1782 лв. Това е разстоянието от
+            Noble Graphics до Барселона - и същата сума, която трябва да
+            съберем, за да стигнем дотам.
+          </p>
+
+          <p className="font-bebas font-bold text-lg md:text-xl lg:text-2xl leading-relaxed text-justify px-4 md:px-0 text-fuel-black uppercase">
+            Брандове могат да „купуват километри" и така буквално да ни
+            приближават до целта. Всеки изминат километър ще бъде отбелязван на
+            интерактивна карта, а в края пътят до Барселона ще покаже всички,
+            които са ни подкрепили.
+          </p>
+
+          <p className="font-bebas font-bold text-lg md:text-xl lg:text-2xl leading-relaxed text-justify px-4 md:px-0 text-fuel-black uppercase">
+            Така не просто стигаме до ADCE Awards, а отвеждаме със себе си и
+            брандовете, които ни помагат - на европейска сцена за креативност.
           </p>
         </div>
       </div>

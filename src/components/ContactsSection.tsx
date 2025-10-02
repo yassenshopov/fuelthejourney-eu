@@ -18,12 +18,14 @@ export default function ContactsSection() {
             <div className="grid grid-cols-2 gap-8 items-center">
               <div className="font-bebas font-bold text-xl md:text-2xl lg:text-3xl text-fuel-black md:text-left uppercase">
                 Mirela Slavova{' '}
-                <a
-                  href="tel:0878695591"
-                  className="hover:text-fuel-blue transition-colors duration-200"
-                >
-                  0878695591
-                </a>
+                <span className="ml-4 text-sm md:text-lg lg:text-xl">
+                  <a
+                    href="mailto:mirela@nobleacademy.bg"
+                    className="hover:text-fuel-blue transition-colors duration-200"
+                  >
+                    mirela@nobleacademy.bg
+                  </a>
+                </span>
               </div>
               <div className="font-bebas font-bold text-xl md:text-2xl lg:text-3xl text-fuel-black md:text-right uppercase">
                 Designer
@@ -33,26 +35,18 @@ export default function ContactsSection() {
             {/* Contact 2 */}
             <div className="grid grid-cols-2 gap-8 items-center">
               <div className="font-bebas font-bold text-xl md:text-2xl lg:text-3xl text-fuel-black md:text-left uppercase">
-                Dimana
+                Dimana Shopova{' '}
+                <span className="ml-4 text-sm md:text-lg lg:text-xl">
+                  <a
+                    href="mailto:dimana@nobleacademy.bg"
+                    className="hover:text-fuel-blue transition-colors duration-200"
+                  >
+                    dimana@nobleacademy.bg
+                  </a>
+                </span>
               </div>
               <div className="font-bebas font-bold text-xl md:text-2xl lg:text-3xl text-fuel-black md:text-right uppercase">
                 Account
-              </div>
-            </div>
-
-            {/* Contact 3 */}
-            <div className="grid grid-cols-2 gap-8 items-center">
-              <div className="font-bebas font-bold text-xl md:text-2xl lg:text-3xl text-fuel-black md:text-left uppercase">
-                Chavdar ....{' '}
-                <a
-                  href="tel:07237198726"
-                  className="hover:text-fuel-blue transition-colors duration-200"
-                >
-                  07237198726
-                </a>
-              </div>
-              <div className="font-bebas font-bold text-xl md:text-2xl lg:text-3xl text-fuel-black md:text-right uppercase">
-                Director Noble Graphics
               </div>
             </div>
           </div>
