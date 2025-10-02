@@ -1,12 +1,12 @@
-"use client";
+'use client';
 
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function HeroMapSection() {
   return (
-    <section className="bg-white relative">
+    <section className="bg-fuel-blue relative">
       {/* Container for the map image with max width */}
-      <div className="max-w-[1025px] mx-auto bg-fuel-light-gray">
+      <div className="max-w-[1100px] mx-auto bg-fuel-light-gray">
         <Image
           src="/images/map.jpg"
           alt="Europe Map showing Spain to Bulgaria journey"
@@ -27,7 +27,7 @@ export default function HeroMapSection() {
             style={{
               animation: 'gentle-bounce 3s ease-in-out infinite',
               width: 'auto',
-              height: 'auto'
+              height: 'auto',
             }}
             unoptimized
           />
@@ -36,7 +36,8 @@ export default function HeroMapSection() {
 
       <style jsx>{`
         @keyframes gentle-bounce {
-          0%, 100% {
+          0%,
+          100% {
             transform: translateY(0px);
           }
           50% {
