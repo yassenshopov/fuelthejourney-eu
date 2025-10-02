@@ -86,9 +86,9 @@
   --sidebar-ring: oklch(0.708 0 0);
 
   /* Custom colors for Fuel Journey design */
-  --fuel-yellow: #ffeb3b;
-  --fuel-pink: #ff4081;
-  --fuel-blue: #4fc3f7;
+  --fuel-yellow: #fae33f;
+  --fuel-pink: #ff70ab;
+  --fuel-blue: #328eb5;
   --fuel-light-gray: #f5f5f5;
   --fuel-black: #000000;
 }
