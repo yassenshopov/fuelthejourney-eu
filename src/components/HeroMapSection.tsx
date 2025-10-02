@@ -6,14 +6,11 @@ export default function HeroMapSection() {
   return (
     <section className="bg-fuel-blue relative">
       {/* Container for the map image with max width */}
-      <div className="max-w-[1100px] mx-auto bg-fuel-light-gray">
-        <Image
+      <div className="max-w-[1100px] mx-auto bg-fuel-light-gray relative">
+        <img
           src="/images/map.jpg"
           alt="Europe Map showing Spain to Bulgaria journey"
-          width={1920}
-          height={600}
           className="w-full h-auto"
-          priority
         />
 
         {/* Donate Button */}
