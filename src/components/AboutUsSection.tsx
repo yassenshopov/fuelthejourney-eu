@@ -36,6 +36,7 @@ export default function AboutUsSection() {
                   width={344}
                   height={512}
                   className="w-full h-full object-cover"
+                  unoptimized
                 />
               </div>
               <p className="mt-4 text-lg md:text-xl lg:text-2xl text-fuel-black font-bebas font-bold uppercase">
@@ -55,6 +56,7 @@ export default function AboutUsSection() {
                   width={344}
                   height={512}
                   className="w-full h-full object-cover"
+                  unoptimized
                 />
               </div>
               <p className="mt-4 text-lg md:text-xl lg:text-2xl text-fuel-black font-bebas font-bold uppercase">
