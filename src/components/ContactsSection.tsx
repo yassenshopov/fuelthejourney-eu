@@ -17,7 +17,13 @@ export default function ContactsSection() {
             {/* Contact 1 */}
             <div className="grid grid-cols-2 gap-8 items-center">
               <div className="font-bebas font-bold text-xl md:text-2xl lg:text-3xl text-fuel-black md:text-left uppercase">
-                Mirela Slavova 0878695591
+                Mirela Slavova{' '}
+                <a
+                  href="tel:0878695591"
+                  className="hover:text-fuel-blue transition-colors duration-200"
+                >
+                  0878695591
+                </a>
               </div>
               <div className="font-bebas font-bold text-xl md:text-2xl lg:text-3xl text-fuel-black md:text-right uppercase">
                 Designer
@@ -37,7 +43,13 @@ export default function ContactsSection() {
             {/* Contact 3 */}
             <div className="grid grid-cols-2 gap-8 items-center">
               <div className="font-bebas font-bold text-xl md:text-2xl lg:text-3xl text-fuel-black md:text-left uppercase">
-                Chavdar .... 07237198726
+                Chavdar ....{' '}
+                <a
+                  href="tel:07237198726"
+                  className="hover:text-fuel-blue transition-colors duration-200"
+                >
+                  07237198726
+                </a>
               </div>
               <div className="font-bebas font-bold text-xl md:text-2xl lg:text-3xl text-fuel-black md:text-right uppercase">
                 Director Noble Graphics
