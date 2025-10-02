@@ -17,18 +17,17 @@ export default function HeroMapSection() {
         />
 
         {/* Donate Button */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -translate-x-8 w-fit h-fit">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/3 -translate-y-1/2 md:-translate-x-8 w-fit h-fit">
           <Image
             src="/images/donate_button.png"
             alt="Donate Button"
             width={800}
             height={320}
-            className="drop-shadow-lg rotate-3 animate-pulse cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out"
+            className="drop-shadow-lg rotate-3 animate-pulse cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out max-w-[250px] md:max-w-[350px] lg:max-w-[450px]"
             style={{
               animation: 'gentle-bounce 3s ease-in-out infinite',
               width: 'auto',
-              height: 'auto',
-              maxWidth: '450px'
+              height: 'auto'
             }}
             unoptimized
           />

@@ -50,21 +50,21 @@ export default function Header() {
             <div className="px-4 py-4 space-y-4">
               <a
                 href="#about"
-                className="block font-bebas font-bold uppercase text-fuel-black hover:text-fuel-pink transition-colors"
+                className="block font-bebas font-bold uppercase text-fuel-black hover:text-fuel-pink transition-colors text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 ABOUT US
               </a>
               <a
                 href="#adce"
-                className="block font-bebas font-bold uppercase text-fuel-black hover:text-fuel-pink transition-colors"
+                className="block font-bebas font-bold uppercase text-fuel-black hover:text-fuel-pink transition-colors text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 ADCE
               </a>
               <a
                 href="#contacts"
-                className="block font-bebas font-bold uppercase text-fuel-black hover:text-fuel-pink transition-colors"
+                className="block font-bebas font-bold uppercase text-fuel-black hover:text-fuel-pink transition-colors text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 CONTACTS

@@ -4,14 +4,14 @@ export default function ContactsSection() {
       {/* Blue background with title */}
       <div className="bg-fuel-blue px-4 py-20 md:px-8 md:py-24 relative">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="fuel-title-pink-bold-italic text-6xl md:text-8xl absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
+          <h2 className="fuel-title-pink-bold-italic text-4xl md:text-8xl absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 -ml-2 md:-ml-4">
             CONTACTS
           </h2>
         </div>
       </div>
       
       {/* Yellow background with content */}
-      <div className="bg-fuel-yellow px-16 py-32 md:px-32 lg:px-48 xl:px-64">
+      <div className="bg-fuel-yellow px-8 py-32 md:px-32 lg:px-48 xl:px-64">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Left side - Contact information */}
