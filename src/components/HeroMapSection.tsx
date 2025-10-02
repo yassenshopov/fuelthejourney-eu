@@ -30,6 +30,7 @@ export default function HeroMapSection() {
               height: 'auto',
               maxWidth: '450px'
             }}
+            unoptimized
           />
         </div>
       </div>
