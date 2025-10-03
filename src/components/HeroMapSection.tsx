@@ -14,6 +14,7 @@ export default function HeroMapSection() {
           height={600}
           className="w-full h-auto"
           priority
+          unoptimized
         />
 
         {/* Donate Button */}
