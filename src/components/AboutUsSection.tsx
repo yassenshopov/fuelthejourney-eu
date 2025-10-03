@@ -6,7 +6,7 @@ export default function AboutUsSection() {
       {/* Blue background with title */}
       <div className="bg-fuel-blue px-4 py-20 md:px-8 md:py-24 relative">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="fuel-title-pink-bold-italic text-4xl md:text-8xl absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 -ml-2 md:-ml-4">
+          <h2 className="fuel-title-pink-bold-italic text-3xl md:text-6xl absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 -ml-2 md:-ml-4 whitespace-nowrap">
             ABOUT US
           </h2>
         </div>

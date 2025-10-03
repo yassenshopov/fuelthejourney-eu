@@ -24,7 +24,7 @@ export default function ADCESection() {
           </p>
 
           <p className="font-bebas font-bold text-lg md:text-xl lg:text-2xl leading-relaxed text-justify px-4 md:px-0 text-fuel-black uppercase">
-            Нашата идея е проста: 1782 км = 1782 лв. Това е разстоянието от
+            Нашата идея е проста: 1785 км = 1785 лв. Това е разстоянието от
             Noble Graphics до Барселона - и същата сума, която трябва да
             съберем, за да стигнем дотам.
           </p>
