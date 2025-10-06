@@ -22,7 +22,7 @@ export default function DonateSection() {
               <div className="space-y-6">
                 <p className="font-bebas font-bold text-lg md:text-xl lg:text-2xl leading-relaxed text-left text-fuel-black uppercase">
                   Подкрепете нашето пътуване до Барселона, за да стигнем до
-                  сцената на ADCE Awards 2025.
+                  сцената на ADCE Awards 2025!
                 </p>
 
                 <p className="font-bebas font-bold text-lg md:text-xl lg:text-2xl leading-relaxed text-left text-fuel-black uppercase">
