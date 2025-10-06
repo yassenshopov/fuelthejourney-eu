@@ -19,7 +19,7 @@ export default function HeroMapSection() {
         />
 
         {/* Donate Button */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:-translate-x-8 w-fit h-fit">
+        <div className="absolute top-1/2 right-2 transform -translate-y-1/2 md:left-1/2 md:right-auto md:-translate-x-1/2 md:-translate-x-8 w-fit h-fit">
           <a
             href={DONATION_URL}
             target="_blank"
