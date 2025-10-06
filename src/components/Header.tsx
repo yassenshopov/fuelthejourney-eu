@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { useState } from 'react';
+import { Menu, X } from 'lucide-react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,6 +37,12 @@ export default function Header() {
             ADCE
           </a>
           <a
+            href="#donate"
+            className="font-bebas font-bold uppercase text-fuel-black hover:text-fuel-pink transition-colors text-2xl"
+          >
+            DONATE
+          </a>
+          <a
             href="#contacts"
             className="font-bebas font-bold uppercase text-fuel-black hover:text-fuel-pink transition-colors text-2xl"
           >
@@ -61,6 +67,13 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 ADCE
+              </a>
+              <a
+                href="#donate"
+                className="block font-bebas font-bold uppercase text-fuel-black hover:text-fuel-pink transition-colors text-lg"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                DONATE
               </a>
               <a
                 href="#contacts"
